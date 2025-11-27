@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Coffee Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Header -->
+    <header>
+
+        <div class="logo-container">
+            <img src="uploads/logo.jpg" alt="Logo" class="logo">
+            <span class="brand-name">MorningMug</span>
+            <span class="tagline">Coffee Shop</span>
+        </div>
+      <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="feedback.html">Feedback</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+	<div class="sub-heading">
+        <h1>Contact Us</h1>
+		<p>We'd love to hear from you! Drop us a message and we’ll get back to you as soon as possible.</p>
+
+    </div>
+    
+  <section class="contact-section">
+    <div class="form-container">
+        <form id="contactForm" onsubmit="return validateForm(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name..." required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email..." required>
+        
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject..." required>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+        
+            <button type="submit">Send Message</button>
+        
+            <!-- Error message container -->
+            <div id="error-message" style="color: red; margin-top: 10px;"></div>
+        </form>
+    </div>
+	<div class="img">
+	<img src="uploads/girl.png" width="500" height="500" alt="img">
+</div>
+</section>
+  <section class="loc">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.9293944930487!2d-97.7546682884772!3d30.267592874706946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b50e25cd8c2d%3A0x3fa3976be9ecaa5!2sMerit%20Coffee!5e0!3m2!1sen!2s!4v1709320735877!5m2!1sen!2s" width="100%" height="400" allowfullscreen="" loading="lazy" class="map"></iframe>
+
+
+    </section>
+  <footer>
+        <div class="footer-container">
+            <!-- Logo and Hours -->
+            <div class="footer-section">
+                <h3><img src="uploads/logo.jpg" alt="MorningMug Logo" style="width: 40px;"> MorningMug</h3>
+                <p>All days except Sunday<br>
+                From: 3:30am to 12:00pm</p>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section contact-info">
+                <h3>Contact Info</h3>
+                <p><img src="uploads/location.jpeg" alt="Location" style="width: 15px;"> 9746 Udupi, NY 14094</p>
+                <p><img src="uploads/emai.jpeg" alt="Email" style="width: 15px;"> <a href="mailto:morningmug@example.com">morningmug@example.com</a></p>
+                <p><img src="uploads/phone.jpg" alt="Phone" style="width: 15px;"> +2 123 456 789</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-section">
+                <h3>Social Media</h3>
+                <p>Don’t forget to follow us on social media</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2021 MorningMug, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">↑</div>
+
+    <!-- Optional JavaScript for smooth scrolling -->
+         <script src="js/contact.js"></script>
+
+</body>
+</html>
